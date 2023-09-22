@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194701128114",
+    "project_id": "upload-ds3t-yasmin",
+    "storage_bucket": "upload-ds3t-yasmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194701128114:android:949874be816d981e3f74ab",
+        "android_client_info": {
+          "package_name": "br.senai.sp.jandira.uploadds3t"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0mhKr-Bpd1nbn4XdEeMuWxr7uKxepys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
