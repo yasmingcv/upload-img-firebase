@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.uploadds3t
 
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -142,6 +143,10 @@ class MainActivity : AppCompatActivity() {
 
                 //TROCA A IMAGEM PARA A IMAGEM PADRÃO
                 binding.imageView.setImageResource(R.drawable.upload)
+
+                binding.showAllBtn.setOnClickListener {
+                    startActivity(Intent(this, ImagesFeed::class.java))
+                }
 
             }
         }
